@@ -1,0 +1,21 @@
+Various JavaScript Goodies: interesting snippets collected.
+
+* [[./displayhtml][displayHTML]]
+
+Very simple utility to display syntax-highlighted HTML while preserving the HTML
+structure, useful for demonstrating DOM selection.
+
+** Origin
+
+http://codepen.io/GeekTrainer/pen/EjMxKL
+
+* [[./htmlEncode][htmlEncode/htmlDecode]]
+This might be too simple to be a goodie on its own. But answers at [[Origin]]
+suggest it the other way. Key notes:
+
+- Still not a built-in API in HTML.
+- 'replace' is the widely used method (as it has no extra dependencies)
+- =underscore= has built-in support.
+
+** Origin
+[[http://stackoverflow.com/questions/1219860/html-encoding-in-javascript-jquery][HTML-encoding in JavaScript/jQuery - Stack Overflow]]
