@@ -19,3 +19,15 @@ suggest it the other way. Key notes:
 
 ** Origin
 [[http://stackoverflow.com/questions/1219860/html-encoding-in-javascript-jquery][HTML-encoding in JavaScript/jQuery - Stack Overflow]]
+
+* miniEventEmitter
+
+An home-brew =EventEmitter= serves as an intermediate step for naturally
+requiring a full framework like =Backbone=. This serves as an minimalist event
+example. A mocha test file is also included.
+
+** Origin
+First used in my [[https://github.com/carltonf/win-allowed-time/commit/91b2fd3d51e6073cf12d0f0f2e75fe49f1f65e80][Move to event-driven arch Part2 · carltonf/win-allowed-time@91b2fd3]].
+
+Later on, it's replaced by node's own =EventEmitter=, which can be browerified
+for client-side use.
